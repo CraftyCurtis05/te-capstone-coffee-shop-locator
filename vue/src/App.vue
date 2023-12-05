@@ -1,10 +1,11 @@
 <template>
   <div id="capstone-app">
     <div id="nav">
-      <router-link v-bind:to="{ name: 'home' }">Home</router-link>&nbsp;|&nbsp;
+      <router-link v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''">Home</router-link>
       <router-link v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">Logout</router-link>
       <router-link v-bind:to="{ name: 'links' }" v-if="$store.state.token != ''">Links</router-link>
       <router-link v-bind:to="{ name: 'articles' }" v-if="$store.state.token != ''">Articles</router-link>
+      <router-link v-bind:to="{ name: 'locator' }" v-if="$store.state.token != ''">Locator</router-link>
 
     </div>
     <router-view />
@@ -32,3 +33,12 @@ export default {
   }
 };
 </script>
+
+<style>
+
+
+
+
+</style>
+
+
