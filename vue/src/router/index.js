@@ -9,6 +9,7 @@ import RegisterView from '../views/RegisterView.vue';
 import LinksView from '../views/LinksView.vue';
 import ArticlesView from '../views/ArticlesView.vue';
 import LocatorView from '../views/LocatorView.vue';
+import ProfileView from '../views/ProfileView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -75,6 +76,14 @@ const routes = [
       requiresAuth: true
     }
   },
+  {
+    path: "/profile",
+    name: "profile",
+    component: ProfileView,
+    meta: {
+      requiresAuth: true
+    }
+  }
 
 ];
 
