@@ -61,10 +61,25 @@ export default {
 </script>
 
 <style scoped>
+#login{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('src\\assets\\beans-coffee.gif') no-repeat center center fixed;
+  background-size: cover;
+}
 .form-input-group {
   margin-bottom: 1rem;
 }
 label {
   margin-right: 0.5rem;
+}
+h1 {
+  color: white;
+}
+.form-input-group {
+  color: white;
 }
 </style>
