@@ -10,6 +10,7 @@ import LinksView from '../views/LinksView.vue';
 import ArticlesView from '../views/ArticlesView.vue';
 import LocatorView from '../views/LocatorView.vue';
 import ProfileView from '../views/ProfileView.vue';
+import FavoritesView from '../views/FavoritesView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -80,6 +81,14 @@ const routes = [
     path: "/profile",
     name: "profile",
     component: ProfileView,
+    meta: {
+      requiresAuth: true
+    }
+  },
+  {
+    path: "/favorites",
+    name: "favorites",
+    component: FavoritesView,
     meta: {
       requiresAuth: true
     }
