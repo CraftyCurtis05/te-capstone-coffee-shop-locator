@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="autocomplete-container" id="autocomplete-container"></div>
     <div class="autocomplete-container" id="autocomplete-container-country"></div>
     <div class="autocomplete-container" id="autocomplete-container-city"></div>
@@ -296,7 +296,7 @@ addressAutocomplete(document.getElementById("autocomplete-container-city"), (dat
     .clear-button:hover {
     color: rgba(0, 0, 0, 0.6);
     }
-</style>
+</style> -->
 
 
 
@@ -316,7 +316,7 @@ addressAutocomplete(document.getElementById("autocomplete-container-city"), (dat
 
 
 
-<!-- <template><div class="autocomplete-container" id="autocomplete-container"></div>
+<template><div class="autocomplete-container" id="autocomplete-container"></div>
 <div class="autocomplete-container" id="autocomplete-container-country"></div>
 <div class="autocomplete-container" id="autocomplete-container-city"></div>
     <div id="links" class="text-center">
@@ -334,4 +334,4 @@ addressAutocomplete(document.getElementById("autocomplete-container-city"), (dat
             <img src="src\assets\googleMaps.jpg">
         </div>
     </div>
-  </template> -->
+  </template>

@@ -1,13 +1,13 @@
 <template>
   <div id="capstone-app">
     <div id="nav" v-if="!$route.meta.hideNavBar">
-      <div><img class="header_pic" src="src\assets\coffeeLocator.jpg"></div>
+      <div><img class="header_pic" src="src/assets/3.png"></div>
       <router-link v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''">Home</router-link>
       <router-link v-bind:to="{ name: 'locator' }" v-if="$store.state.token != ''">Locator</router-link>
       <router-link v-bind:to="{ name: 'links' }" v-if="$store.state.token != ''">Links</router-link>
       <router-link v-bind:to="{ name: 'articles' }" v-if="$store.state.token != ''">Articles</router-link>
       <router-link v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">Logout</router-link>
-      <router-link v-bind:to="{ name: 'profile' }" v-if="$store.state.token != ''"><img class="header_pic" src="src\assets\profile.jpg"></router-link>
+      <router-link v-bind:to="{ name: 'profile' }" v-if="$store.state.token != ''"><img class="profile_pic" src="src\assets\profile.jpg"></router-link>
     </div>
     <router-view />
   </div>
@@ -43,7 +43,10 @@ export default {
   justify-content: space-between;
 }
 .header_pic {
-  max-height: 100px;
+  max-height: 300px;
+}
+.profile_pic {
+  max-height: 75px;
 }
 
 </style>
