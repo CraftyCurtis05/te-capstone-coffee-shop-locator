@@ -184,7 +184,7 @@ function addressAutocomplete(containerElement, callback, options) {
   }
   
     /* Close the autocomplete dropdown when the document is clicked. 
-  	Skip, when a user clicks on the input field */
+  Skip, when a user clicks on the input field */
   document.addEventListener("click", function(e) {
     if (e.target !== inputElement) {
       closeDropDownList();

@@ -34,6 +34,7 @@ const routes = [
     name: "login",
     component: LoginView,
     meta: {
+      hideNavBar: true,
       requiresAuth: false
     }
   },

@@ -1,6 +1,6 @@
 <template>
   <div id="capstone-app">
-    <div id="nav">
+    <div id="nav" v-if="!$route.meta.hideNavBar">
       <div><img class="header_pic" src="src\assets\coffeeLocator.jpg"></div>
       <router-link v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''">Home</router-link>
       <router-link v-bind:to="{ name: 'locator' }" v-if="$store.state.token != ''">Locator</router-link>
