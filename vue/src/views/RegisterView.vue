@@ -73,6 +73,13 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
+
+h1{
+  font-family: 'Lobster Two', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .form-input-group {
   margin-bottom: 1rem;
 }
@@ -80,3 +87,5 @@ label {
   margin-right: 0.5rem;
 }
 </style>
+
+
