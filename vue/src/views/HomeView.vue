@@ -8,9 +8,13 @@
 
 <script>
 import Carousel from '../components/Carousel.vue';
+import YelpService from '../services/YelpService';
 
 export default {
-    components: { Carousel }
+    components: { Carousel },
+    created(){
+      YelpService.getCoffee();
+    }
 };
 </script>
 
