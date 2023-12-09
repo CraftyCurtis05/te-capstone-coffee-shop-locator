@@ -1,23 +1,25 @@
 <template>
   <div id="capstone-app">
     <div id="nav" v-if="!$route.meta.hideNavBar">
-      <div class="header-pic-container">
-        <div><img class="header-pic" src="src\assets\MagicEraser_231208_090204.PNG"></div>
+      <div class="header-logo-container">
+        <div><img class="header-logo" src="src\assets\Jolt Logo.png"></div>
       </div>
-      <div class="logo-name-container">
+      <!-- <div class="logo-name-container">
         <div class="company-name">JOlt</div>
+      </div> -->
+      <div class="links-container">
+        <router-link class="home-link" v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''">HOME</router-link>
+        <div class="separators" id="sep1"></div>
+        <router-link class="locator-link" v-bind:to="{ name: 'locator' }" v-if="$store.state.token != ''">LOCATOR</router-link>
+        <div class="separators" id="sep2"></div>
+        <router-link class="shop-link" v-bind:to="{ name: 'links' }" v-if="$store.state.token != ''">SHOP</router-link>
+        <div class="separators" id="sep3"></div>
+        <router-link class="articles-link" v-bind:to="{ name: 'articles' }" v-if="$store.state.token != ''">ARTICLES</router-link>
+        <div class="separators" id="sep4"></div>
+        <router-link class="logout-link" v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">LOGOUT</router-link>
       </div>
-      <router-link v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''">HOME</router-link>
-      <div class="separators"></div>
-      <router-link v-bind:to="{ name: 'locator' }" v-if="$store.state.token != ''">LOCATOR</router-link>
-      <div class="separators"></div>
-      <router-link v-bind:to="{ name: 'links' }" v-if="$store.state.token != ''">SHOP</router-link>
-      <div class="separators"></div>
-      <router-link v-bind:to="{ name: 'articles' }" v-if="$store.state.token != ''">ARTICLES</router-link>
-      <div class="separators"></div>
-      <router-link v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">LOGOUT</router-link>
-      <div class="separators"></div>
-      <router-link v-bind:to="{ name: 'profile' }" v-if="$store.state.token != ''"><img class="profile_pic" src="src\assets\profile.jpg"></router-link>
+        <!-- <div class="separators"></div> -->
+        <router-link v-bind:to="{ name: 'profile' }" v-if="$store.state.token != ''"><img class="profile_pic" src="src\assets\profile (2).png"></router-link>
     </div>
     <router-view />
   </div>
@@ -48,7 +50,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nunito+Sans:opsz,wght@6..12,200&family=Raleway:wght@800&family=Ubuntu:wght@300&display=swap');
 
-#nav {
+.links-container {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -58,14 +60,72 @@ export default {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   color:black;
-  background-color: grey;
+  background-color: rgb(160, 153, 145);
   padding: 10px;
-  height: 30px;
+  height: 15px;
 }
-router-link {
-  color: white;
+.links-container .home-link {
+  position: absolute;
+  left: 590px;
+  font-size: 14px;
+  color: rgb(245, 242, 242);
   text-decoration: none;
-  padding: 8px 15px;
+}
+#sep1 {
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  left: 690px;
+}
+.locator-link {
+  position: absolute;
+  left: 760px;
+  font-size: 14px;
+  color: rgb(245, 242, 242);
+  text-decoration: none;
+}
+#sep2 {
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  left: 860px;
+}
+.shop-link {
+  position: absolute;
+  left: 930px;
+  font-size: 14px;
+  color: rgb(245, 242, 242);
+  text-decoration: none;
+}
+#sep3 {
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  left: 1030px;
+}
+.articles-link {
+  position: absolute;
+  left: 1090px;
+  font-size: 14px;
+  color: rgb(245, 242, 242);
+  text-decoration: none;
+}
+#sep4 {
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  left: 1190px;
+}
+.logout-link {
+  position: absolute;
+  left: 1260px;
+  font-size: 14px;
+  color: rgb(245, 242, 242);
+  text-decoration: none;
 }
 .separators {
   margin: 0 10px;
@@ -73,21 +133,24 @@ router-link {
   height: 20px;
   background-color: black;
 }
-.logo-name-container .company-name {
+/* .logo-name-container .company-name {
   color: rgb(234,189,99);
   font-size: 60px;
   font-weight: bold;
   display: flex;
   margin-left: -100px;
-}
-#nav .header-pic-container .header-pic {
-  height: 60px;
-  margin-left: 1px;
-  margin-top: 07px;
+} */
+#nav .header-logo-container .header-logo {
+  width: 290px;
+  position: absolute;
+  top: -56.5px;
+  left: -90px;
 }
 .profile_pic {
-  height: 45px;
-  margin-top: 2px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 6px;
 }
 
 

@@ -2,12 +2,12 @@
   <div id="login-container">
     <div class="logo-company-container">
       <div class="logo-container">
-        <img src="src\assets\MagicEraser_231208_090204.PNG" alt="Logo"/>
+        <img src="src\assets\Jolt Logo.png" alt="Logo"/>
       </div>
     </div>
-    <div class="logo-name-container">
+    <!-- <div class="logo-name-container">
       <div class="company-name">JOlt</div>
-    </div>
+    </div> -->
     <div class="form-container">
       <div class="login-form">
         <form v-on:submit.prevent="login">
@@ -73,10 +73,10 @@ export default {
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
-.company-name {
+/* .company-name {
     font-family: 'Lobster Two', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-}
+} */
 .form-container .login-form .button-container .register-button {
   display: flex;
   margin-top: -21px;
@@ -101,9 +101,9 @@ export default {
   background: url('src\\assets\\beans-coffee.gif') no-repeat center center fixed;
   background-size: cover;
 }
-.logo-name-container {
+/* .logo-name-container {
   margin-left: 250px;
-}
+} */
 .form-input-group #username {
   margin-left: -04px;
 }
@@ -118,18 +118,20 @@ export default {
   margin-right: 51px;
   margin-bottom: -580px;
 }
-.company-name {
+/* .company-name {
   margin-top: 150px;
   display: flex;
   margin-right: 160px;
   font-size: 200px;
   font-weight: bold;
   color: rgb(234,189,99);
-}
+} */
 .login-form {
   display: flex;
   align-items: center;
-  margin-bottom: 300px;
+  position:absolute;
+  top: 400px;
+  right: 780px;
   max-width: 300px;
   padding: 20px;
   border-radius: 8px;
@@ -145,7 +147,9 @@ h1 {
   color: white;
 }
 img {
-  width: 215px;
+  position: absolute;
+  top: -20px;
+  right: 275px
 }
 .register-button {
   margin-left: 170px;
