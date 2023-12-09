@@ -21,13 +21,29 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
 
-.home > h1{
- font-family: 'Lobster Two', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
 }
-.home > p{
+
+.content {
+  text-align: center;
+}
+
+.content > h1 {
+  font-family: 'Lobster Two', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 0;
+}
+
+.content > p {
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  margin-top: 10px; /* Add some spacing */
 }
 </style>
