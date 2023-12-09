@@ -78,15 +78,16 @@ router-link {
   font-size: 60px;
   font-weight: bold;
   display: flex;
-  margin-left: -210px;
+  margin-left: -100px;
 }
 #nav .header-pic-container .header-pic {
   height: 60px;
-  margin-left: px;
+  margin-left: 1px;
   margin-top: 07px;
 }
 .profile_pic {
-  max-height: 75px;
+  height: 45px;
+  margin-top: 2px;
 }
 
 

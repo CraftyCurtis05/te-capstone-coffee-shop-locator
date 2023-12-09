@@ -121,7 +121,7 @@ export default {
 .company-name {
   margin-top: 150px;
   display: flex;
-  margin-right: 260px;
+  margin-right: 160px;
   font-size: 200px;
   font-weight: bold;
   color: rgb(234,189,99);
