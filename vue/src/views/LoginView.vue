@@ -5,9 +5,6 @@
         <img src="src\assets\Jolt Logo.png" alt="Logo"/>
       </div>
     </div>
-    <!-- <div class="logo-name-container">
-      <div class="company-name">JOlt</div>
-    </div> -->
     <div class="form-container">
       <div class="login-form">
         <form v-on:submit.prevent="login">

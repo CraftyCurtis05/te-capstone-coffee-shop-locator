@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <h1>Home</h1>
-    <p>This page IS working</p>
+    <!-- WE NEED A PARAGRAPH DESCRIBING OUR COMPANY AND WHAT WE DO -->
+    <p>.........</p>
     <Carousel />
   </div>
 </template>

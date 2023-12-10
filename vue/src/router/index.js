@@ -51,6 +51,7 @@ const routes = [
     name: "register",
     component: RegisterView,
     meta: {
+      hideNavBar: true,
       requiresAuth: false
     }
   },
