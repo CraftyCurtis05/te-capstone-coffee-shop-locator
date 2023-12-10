@@ -29,18 +29,17 @@ export default {
   align-items: center;
   height: 700px;
 }
-
 .content {
   text-align: center;
 }
-
 .content > h1 {
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bolder;
+  font-size: 35px; /* Adjust the font size as needed */
+  text-align: center;
   margin: 0;
 }
-
 .content > p {
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Nunito Sans', sans-serif;

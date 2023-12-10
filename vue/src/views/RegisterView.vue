@@ -88,7 +88,6 @@ h1{
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Ubuntu', sans-serif;
 }
-
 .form-input-group {
   margin-bottom: 1rem;
 }
