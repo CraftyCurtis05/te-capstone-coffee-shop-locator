@@ -13,7 +13,7 @@ const options = {
   },
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer 5r-wEn1OAX2Q8e3JQU9LJ-EJkZvBTp2MnBWe87OCHq6Flpq9XyuJRszqqkI8u3EhmmxH5ItYvD3XhPs9CG_eE_0M9wi30su2x9g_5c9QBx1KpTW81lhEFR_GdLtuZXYx',
+    Authorization: '5r-wEn1OAX2Q8e3JQU9LJ-EJkZvBTp2MnBWe87OCHq6Flpq9XyuJRszqqkI8u3EhmmxH5ItYvD3XhPs9CG_eE_0M9wi30su2x9g_5c9QBx1KpTW81lhEFR_GdLtuZXYx',
     changeOrigin: 'true'
   }
 };

@@ -26,7 +26,7 @@
             <label for="password">Password</label>
             <input type="password" id="password" v-model="user.password" required />
           </div>
-          <button type="submit">Sign in</button>
+          <button class="sign-in-button" type="submit">Sign in</button>
           <div class="button-container">
             <router-link v-bind:to="{ name: 'register' }">
               <button class="register-button">Register</button>
@@ -73,12 +73,56 @@ export default {
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
-/* .company-name {
-    font-family: 'Lobster Two', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-} */
-.form-container .login-form .button-container .register-button {
+
+#login-container{
+  background: url('src\\assets\\beans-coffee.gif') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.logo-container{
   display: flex;
+  flex-direction:row;
+  justify-content: center;
+  position: relative;
+  top: -200px;
+}
+.login-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -460px;
+}
+.sign-in-text {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form-input-group {
+  color: white;
+}
+#username {
+  display: flex;
+}
+#password {
+  display: flex;
+}
+.register-button {
+  position: relative;
+  right: -60px;
+  top: -21.3px;
+}
+.sign-in-button {
+  position: relative;
+}
+
+/* .form-container .login-form .button-container .register-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   margin-top: -21px;
   margin-left: 140px;
 }
@@ -91,19 +135,6 @@ export default {
 .form-container .login-form .sign-in-text {
   margin-left: 30px;
 }
-#login-container{
-  width:100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url('src\\assets\\beans-coffee.gif') no-repeat center center fixed;
-  background-size: cover;
-}
-/* .logo-name-container {
-  margin-left: 250px;
-} */
 .form-input-group #username {
   margin-left: -04px;
 }
@@ -118,14 +149,6 @@ export default {
   margin-right: 51px;
   margin-bottom: -580px;
 }
-/* .company-name {
-  margin-top: 150px;
-  display: flex;
-  margin-right: 160px;
-  font-size: 200px;
-  font-weight: bold;
-  color: rgb(234,189,99);
-} */
 .login-form {
   display: flex;
   align-items: center;
@@ -147,11 +170,14 @@ h1 {
   color: white;
 }
 img {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
   position: absolute;
-  top: -20px;
-  right: 275px
+  top: -2%;
+  right: 14%;
 }
 .register-button {
   margin-left: 170px;
-}
+} */
 </style>

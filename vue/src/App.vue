@@ -2,7 +2,7 @@
   <div id="capstone-app">
     <div id="nav" v-if="!$route.meta.hideNavBar">
       <div class="header-logo-container">
-        <div><img class="header-logo" src="src\assets\Jolt Logo.png"></div>
+        <router-link v-bind:to="{ name: 'home' }" v-if="$store.state.token != ''"><img class="header-logo" src="src\assets\Jolt Logo.png"></router-link>
       </div>
       <!-- <div class="logo-name-container">
         <div class="company-name">JOlt</div>
@@ -141,7 +141,7 @@ export default {
   margin-left: -100px;
 } */
 #nav .header-logo-container .header-logo {
-  width: 290px;
+  max-width: 290px;
   position: absolute;
   top: -56.5px;
   left: -90px;
@@ -155,5 +155,3 @@ export default {
 
 
 </style>
-
-
