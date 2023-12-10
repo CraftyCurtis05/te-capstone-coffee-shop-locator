@@ -65,64 +65,74 @@ export default {
   height: 15px;
 }
 .links-container .home-link {
-  position: absolute;
-  left: 590px;
+  justify-content: center;
+  position: relative;
+  left: 300px;
   font-size: 14px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
+
 #sep1 {
+  justify-content: center;
   margin: 0 10px;
   width: 1px;
   height: 20px;
-  position: absolute;
-  left: 690px;
+  position: relative;
+  left: 228px;
 }
 .locator-link {
-  position: absolute;
-  left: 760px;
+  justify-content: center;
+  position: relative;
+  left: 150px;
   font-size: 14px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
 #sep2 {
+  justify-content: center;
   margin: 0 10px;
   width: 1px;
   height: 20px;
-  position: absolute;
-  left: 860px;
+  position: relative;
+  left: 75px;
 }
 .shop-link {
-  position: absolute;
-  left: 930px;
+  justify-content: center;
+  position: relative;
+  left: 0px;
   font-size: 14px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
 #sep3 {
+  justify-content: center;
   margin: 0 10px;
   width: 1px;
   height: 20px;
-  position: absolute;
-  left: 1030px;
+  position: relative;
+  left: -75px;
 }
 .articles-link {
-  position: absolute;
-  left: 1090px;
+  justify-content: center;
+  position: relative;
+  left: -150px;
   font-size: 14px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
 #sep4 {
+  justify-content: center;
   margin: 0 10px;
   width: 1px;
   height: 20px;
-  position: absolute;
-  left: 1190px;
+  position: relative;
+  left: -225px;
 }
 .logout-link {
-  position: absolute;
-  left: 1260px;
+  justify-content: center;
+  position: relative;
+  left: -300px;
   font-size: 14px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -133,13 +143,6 @@ export default {
   height: 20px;
   background-color: black;
 }
-/* .logo-name-container .company-name {
-  color: rgb(234,189,99);
-  font-size: 60px;
-  font-weight: bold;
-  display: flex;
-  margin-left: -100px;
-} */
 #nav .header-logo-container .header-logo {
   max-width: 290px;
   position: absolute;
@@ -152,6 +155,4 @@ export default {
   right: 20px;
   top: 6px;
 }
-
-
 </style>
