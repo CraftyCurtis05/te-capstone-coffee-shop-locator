@@ -4,7 +4,7 @@
 <div id="links" class="text-center">
   <h1>Locator</h1>
   <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
-  <p>.........</p>  
+  <p>Uncover your next coffee adventure. Locate the perfect brew near you</p>  
     <form class="locator-form" >
       <input name="street-input" type="text" placeholder="Street Address"/>
       <input name="city-input" type="text" placeholder="City"/>
