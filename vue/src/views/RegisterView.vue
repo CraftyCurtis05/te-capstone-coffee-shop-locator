@@ -21,7 +21,7 @@
             <input type="password" id="password" v-model="user.password" required />
           </div>
           <div class="confirm-form-input">
-            <label for="confirmPassword">Confirm Password</label>
+            <label class="confirm-password-text" for="confirmPassword">Confirm Password</label>
             <input type="password" id="confirmPassword" v-model="user.confirmPassword" required />
           </div>
           <div class="submit-button" >
@@ -136,6 +136,9 @@ h1 {
   display: flex;
 }
 #confirm-password {
+  display: flex;
+}
+.confirm-password-text {
   display: flex;
 }
 button {
