@@ -13,10 +13,20 @@
       <button>Search</button>
     </form>
     <div class="locator-map-pic">
-      <img src="\src\assets\googleMap.png">
+      <YelpBusinessSearch />
     </div>
   </div>
 </template>
+
+<script>
+import YelpBusinessSearch from '../components/YelpBusinessSearch.vue';
+
+export default {
+  components: {
+  YelpBusinessSearch
+  }
+}
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
