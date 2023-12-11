@@ -100,16 +100,20 @@ h1 {
   flex-direction: row;
   justify-content: center;
   position: relative;
-  top: -460px;
+  top: -475px;
 }
 .sign-in-text {
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 24px;
 }
 .form-input-group {
   color: white;
+  text-align: start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
 }
 #username {
   display: flex;
@@ -119,72 +123,31 @@ h1 {
 }
 .register-button {
   position: relative;
-  right: -60px;
-  top: -21.3px;
+  right: -80px;
+  top: -28.5px;
 }
 .sign-in-button {
   position: relative;
 }
-
-/* .form-container .login-form .button-container .register-button {
+button {
   display: flex;
-  align-content: center;
   justify-content: center;
-  margin-top: -21px;
-  margin-left: 140px;
-}
-.form-container .login-form button {
-  margin-left: 70px;
-}
-#login-container .form-container {
-  margin-top: -50px;
-}
-.form-container .login-form .sign-in-text {
-  margin-left: 30px;
-}
-.form-input-group #username {
-  margin-left: -04px;
-}
-.logo-company-container {
+  position: relative;
+  background-color: #3a2f2e;
+  width: 80px;
+  color: #ffffff;
   text-align: center;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+  border: 1.5px solid #cccccc;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+  -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+  -moz-transition: all 0.5s; /* add this line, firefox */
+  -o-transition: all 0.5s; /* add this line, opera */
+  transition: all 0.5s; /* add this line */
 }
-.logo-container {
-  text-align: center;
-  margin-right: 51px;
-  margin-bottom: -580px;
+button:hover {
+  background-color: #e8bb64;
 }
-.login-form {
-  display: flex;
-  align-items: center;
-  position:absolute;
-  top: 400px;
-  right: 780px;
-  max-width: 300px;
-  padding: 20px;
-  border-radius: 8px;
-}
-.form-input-group {
-  margin-bottom: 1rem;
-  color: white;
-}
-label {
-  margin-right: 0.5rem;
-}
-h1 {
-  color: white;
-}
-img {
-  display: flex;
-  flex: 0 0 auto;
-  align-items: center;
-  position: absolute;
-  top: -2%;
-  right: 14%;
-}
-.register-button {
-  margin-left: 170px;
-} */
 </style>

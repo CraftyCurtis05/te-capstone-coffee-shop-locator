@@ -85,12 +85,19 @@ p {
   font-weight: 790;
   font-size: 24px; /* Adjust the font size as needed */
 }
-a:link, a:visited {
+a:link {
   color: white;
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 790;
   font-size: 24px; 
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 790;
+  font-size: 24px;
 }
 a:hover{
   color:#e8bb64;

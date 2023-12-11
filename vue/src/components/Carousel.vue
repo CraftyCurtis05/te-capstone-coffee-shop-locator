@@ -66,7 +66,6 @@ export default {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 18px;
   cursor: pointer;
   padding: 10px;
 }
@@ -82,5 +81,23 @@ export default {
 }
 .slide-enter, .slide-leave-to {
   opacity: 0;
+}
+button {
+  display: inline-block;
+  background-color: #3a2f2e;
+  width: 80px;
+  color: #ffffff;
+  text-align: center;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 5px;
+  -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+  -moz-transition: all 0.5s; /* add this line, firefox */
+  -o-transition: all 0.5s; /* add this line, opera */
+  transition: all 0.5s; /* add this line */
+}
+button:hover {
+  background-color: #e8bb64;
 }
 </style>
