@@ -29,10 +29,7 @@ export default {
   align-items: center;
   height: 700px;
 }
-.content {
-  text-align: center;
-}
-.content > h1 {
+h1 {
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bolder;
@@ -40,7 +37,7 @@ export default {
   text-align: center;
   margin: 0;
 }
-.content > p {
+p {
   font-family: 'Lobster Two', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;

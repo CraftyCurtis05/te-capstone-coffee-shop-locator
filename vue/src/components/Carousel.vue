@@ -38,17 +38,17 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
+
 .carousel-container {
   max-width: 900px; /* Adjust the maximum width of the container as needed */
   margin: auto;
   position: relative;
 }
-
 .carousel {
   overflow: hidden;
   position: relative;
 }
-
 .carousel-item {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -56,13 +56,11 @@ export default {
   width: 100%;
   height: auto;
 }
-
 .carousel-image {
   width: 900px; /* Set a larger fixed width for the images */
   height: 600px; /* Set a larger fixed height for the images */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
-
 .prev-btn,
 .next-btn {
   position: absolute;
@@ -72,20 +70,16 @@ export default {
   cursor: pointer;
   padding: 10px;
 }
-
 .prev-btn {
   left: 10px;
 }
-
 .next-btn {
   right: 10px;
 }
-
 .slide-enter-active,
 .slide-leave-active {
   transition: opacity 0.5s;
 }
-
 .slide-enter, .slide-leave-to {
   opacity: 0;
 }

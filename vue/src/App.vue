@@ -61,18 +61,17 @@ export default {
   font-weight: bold;
   color:black;
   background-color: rgb(160, 153, 145);
-  padding: 10px;
+  padding: 15px;
   height: 15px;
 }
-.links-container .home-link {
+.home-link {
   justify-content: center;
   position: relative;
   left: 300px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
-
 #sep1 {
   justify-content: center;
   margin: 0 10px;
@@ -85,7 +84,7 @@ export default {
   justify-content: center;
   position: relative;
   left: 150px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
@@ -101,7 +100,7 @@ export default {
   justify-content: center;
   position: relative;
   left: 0px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
@@ -117,7 +116,7 @@ export default {
   justify-content: center;
   position: relative;
   left: -150px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
@@ -133,7 +132,7 @@ export default {
   justify-content: center;
   position: relative;
   left: -300px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
@@ -144,15 +143,22 @@ export default {
   background-color: black;
 }
 #nav .header-logo-container .header-logo {
-  max-width: 290px;
+  max-width: 300px;
   position: absolute;
-  top: -56.5px;
+  top: -55px;
   left: -90px;
 }
 .profile_pic {
-  height: 40px;
+  height: 50px;
   position: absolute;
   right: 20px;
   top: 6px;
+}
+a:hover{
+  color:#3a2f2e;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 790;
+  font-size: 18px; 
 }
 </style>
