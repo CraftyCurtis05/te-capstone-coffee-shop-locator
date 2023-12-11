@@ -1,7 +1,7 @@
 <template>
   <h1>Shop</h1>
   <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
-  <p>.........</p>
+  <p>Shop for More Than Just Coffee: Discover Equipment, Snacks, and Unique Merchandise</p>
     <section class="links-pics">
       <div class="links-pic"><a href="https://store.coffeebean.com/collections/coffee"><img src="src\assets\coffeeBeans.jpeg"></a></div>
       <div class="links-pic"><a href="https://www.ozocoffee.com/brew-equipment/"><img src="src\assets\equipment2webp.webp"></a></div>
