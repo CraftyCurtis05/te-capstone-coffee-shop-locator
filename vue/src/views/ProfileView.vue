@@ -1,9 +1,23 @@
 <template>
-  <h1>Profile</h1>  
-  <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
-  <p>.........</p>
-    <div><a href="/favorites">Favorites</a></div>    
+    <h1>Profile</h1>  
+    <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
+    <p>.........</p>
+      <div><a href="/favorites">Favorites</a></div>
+      <div id="change-profile-pic">
+        <h3>Change Profile Picture</h3>
+        <ProfilePictureUpload />
+      </div>
 </template>
+
+<script>
+import ProfilePictureUpload from '../components/ProfilePictureUpload.vue';
+
+export default {
+  components: {
+    ProfilePictureUpload
+  }
+};
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
