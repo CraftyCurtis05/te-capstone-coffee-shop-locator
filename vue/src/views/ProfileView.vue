@@ -1,19 +1,12 @@
 <template>
-<<<<<<< HEAD
-    <h1>Profile</h1>  
-    <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
-    <p>.........</p>
-      <div><a href="/favorites">Favorites</a></div>
-      <div id="change-profile-pic">
-        <h3>Change Profile Picture</h3>
-        <ProfilePictureUpload />
-      </div>
-=======
   <h1>Profile</h1>  
   <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
   <p>Jolt Up Your Profile</p>
-    <div><a href="/favorites">Favorites</a></div>    
->>>>>>> 307543ea87d4c86664d6d061027e38a76d1c2b44
+    <div><a href="/favorites">Favorites</a></div>
+    <div id="change-profile-pic">
+        <h3>Change Profile Picture</h3>
+        <ProfilePictureUpload />
+      </div>
 </template>
 
 <script>
