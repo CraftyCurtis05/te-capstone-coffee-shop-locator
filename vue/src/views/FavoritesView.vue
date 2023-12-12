@@ -1,7 +1,6 @@
 <template>
   <div id="favorites" class="text-center">
     <h1>Favorites</h1> 
-    <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
     <p>.........</p>       
   </div>
 </template>

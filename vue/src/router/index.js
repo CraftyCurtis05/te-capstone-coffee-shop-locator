@@ -95,7 +95,6 @@ const routes = [
       requiresAuth: true
     }
   }
-
 ];
 
 // Create the router

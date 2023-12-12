@@ -1,6 +1,5 @@
 <template>
   <h1>Articles</h1>
-  <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
   <p>Dive into the Coffee Chronicles: A World of Brew-tiful Stories</p>
     <section class="articles-pics">
       <div class="articles-pic"><a href="https://riordanclinic.org/2018/03/13-health-benefits-of-coffee-based-on-science/?gclid=Cj0KCQiAsburBhCIARIsAExmsu76rAuS3rnEO2lznJSxaKKwz8erMeb-IEj_v6c1q9rGZAkSqsr1ehYaAqYOEALw_wcB"><img src="src\assets\health2.webp"></a></div>

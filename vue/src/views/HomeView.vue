@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <h1>Home</h1>
-    <!-- WE NEED A PARAGRAPH DESCRIBING OUR COMPANY AND WHAT WE DO -->
     <p>Discover the best coffee shops with friends and savor your favorite brews together</p>
     <Carousel />
     <div class="company-description">

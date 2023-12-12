@@ -1,6 +1,5 @@
 <template>
   <h1>Profile</h1>  
-  <!-- WE NEED A PARAGRAPH DESCRIBING WHAT THIS PAGE IS -->
   <p>Jolt Up Your Profile</p>
     <div><a href="/favorites">Favorites</a></div>
     <div id="change-profile-pic">
