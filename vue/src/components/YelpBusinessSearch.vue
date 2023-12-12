@@ -5,6 +5,8 @@
     <ul class="coffee-shop-list">
         <div v-for="result in results" v-bind:key="result.id">
             <p> {{ result.name }} </p>
+            <p> {{ result.location.display_address }} </p>
+            <p> {{ result.url }} </p>
             <img v-bind:src="result.image_url" />
         </div>
     </ul>
@@ -12,7 +14,6 @@
 
 <script>
     import YelpService from '../services/YelpService';
-    //import { useStore } from 'vuex';
 
     export default {
         data() {
