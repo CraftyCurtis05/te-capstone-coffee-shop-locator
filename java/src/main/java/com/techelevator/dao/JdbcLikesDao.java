@@ -80,7 +80,7 @@ public class JdbcLikesDao implements LikesDao{
         Likes likes = new Likes();
         likes.setLikesId(rs.getInt("likes_id"));
         likes.setUserId(rs.getInt("user_id"));
-        likes.setBusinessId(rs.getInt("business_id"));
+        likes.setBusinessId(rs.getString("business_id"));
         return likes;
     }
 }

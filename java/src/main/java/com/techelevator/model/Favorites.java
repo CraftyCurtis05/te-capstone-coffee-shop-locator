@@ -3,11 +3,11 @@ package com.techelevator.model;
 public class Favorites {
     private int favoriteId;
     private int userId;
-    private int businessId;
+    private String businessId;
     private String businessName;
     private String businessAddress;
 
-    public Favorites(int favoriteId, int userId, int businessId, String businessName, String businessAddress) {
+    public Favorites(int favoriteId, int userId, String businessId, String businessName, String businessAddress) {
         this.favoriteId = favoriteId;
         this.userId = userId;
         this.businessId = businessId;
@@ -34,11 +34,11 @@ public class Favorites {
         this.userId = userId;
     }
 
-    public int getBusinessId() {
+    public String getBusinessId() {
         return businessId;
     }
 
-    public void setBusinessId(int businessId) {
+    public void setBusinessId(String businessId) {
         this.businessId = businessId;
     }
 

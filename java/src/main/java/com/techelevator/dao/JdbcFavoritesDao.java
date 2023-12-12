@@ -83,7 +83,7 @@ public class JdbcFavoritesDao implements FavoritesDao {
         Favorites favorites = new Favorites();
         favorites.setFavoriteId(rs.getInt("favorites_id"));
         favorites.setUserId(rs.getInt("user_id"));
-        favorites.setBusinessId(rs.getInt("business_id"));
+        favorites.setBusinessId(rs.getString("business_id"));
         favorites.setBusinessName(rs.getString("business_name"));
         favorites.setBusinessAddress(rs.getString("business_address"));
         return favorites;
