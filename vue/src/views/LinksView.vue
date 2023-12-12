@@ -4,9 +4,9 @@
   <p>Shop for More Than Just Coffee: Discover Equipment, Snacks, and Unique Merchandise</p>
     <section class="links-pics">
       <div class="links-pic"><a href="https://store.coffeebean.com/collections/coffee"><img src="src\assets\coffeeBeans.jpeg"></a></div>
-      <div class="links-pic"><a href="https://www.ozocoffee.com/brew-equipment/"><img src="src\assets\equipment2webp.webp"></a></div>
-      <div class="links-pic"><a href="https://www.etsy.com/market/coffee_novelties"><img src="src\assets\merchMaybe.jpeg"></a></div>
-      <div class="links-pic"><a href="https://shop.shatila.com/default.aspx"><img src="src\assets\snacks.jpeg"></a></div>
+      <div class="links-pic"><a href="https://www.ozocoffee.com/brew-equipment/"><img src="src/assets/purchaseEquipment2.avif"></a></div>
+      <div class="links-pic"><a href="https://www.etsy.com/market/coffee_novelties"><img src="src/assets/purchaseMerchendise.avif"></a></div>
+      <div class="links-pic"><a href="https://shop.shatila.com/default.aspx"><img src="src\assets\purchaseSnacks.avif"></a></div>
     </section>
     <section class="links-texts">
       <div class="links-text1"><a href="https://store.coffeebean.com/collections/coffee">Purchase Coffee</a></div>
@@ -45,6 +45,7 @@ p {
   border: 10px solid white;
   resize: both;
 }
+
 .links-text1 {
   display: flex;
   flex-direction: row;
