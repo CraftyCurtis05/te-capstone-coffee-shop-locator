@@ -11,15 +11,18 @@
                 </div>
             </ul>
         </div>
+<<<<<<< HEAD
     </div>        
+=======
+    </div>
+>>>>>>> aa52bd5777900ed305745f6ccad9e0035ab75875
 </template>
 
 <script>
     import YelpService from '../services/YelpService';
-
     export default {
         data() {
-            return { 
+            return {
                 results: [],
                 locationID: ''
             }
@@ -41,10 +44,15 @@
         }
     }
 </script>
+<<<<<<< HEAD
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
 
+=======
+<style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
+>>>>>>> aa52bd5777900ed305745f6ccad9e0035ab75875
   h1.coffee-shop-title {
     font-family: 'Lobster Two', sans-serif;
     font-family: 'Ubuntu', sans-serif;
