@@ -1,5 +1,7 @@
+// Install in terminal npm install
 // Install in terminal npm i axios
 // Open: https://cors-anywhere.herokuapp.com/corsdemo
+// npm run dev
 
 import axios from 'axios';
 //import { useStore } from 'vuex';

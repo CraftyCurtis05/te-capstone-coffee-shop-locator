@@ -47,8 +47,12 @@
     font-family: 'Ubuntu', sans-serif;
     margin-top: 10px; /* Add some spacing */
   }
-  img {
-    resize: both;
-    width: 500px;
+  .search-bar {
+  margin-top: 40px; /* Adjust the margin-top value to move the search bar down */
   }
+  .list-search-results img {
+  width: 200px !important;
+  height: auto !important;
+  }
+ 
   </style>
