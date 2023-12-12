@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
     <div class="coffee-shop-container">
         <h1 class="coffee-shop-title">List of local coffee shops near you:</h1>
         <div class="coffee-shop-list">
@@ -11,26 +10,12 @@
                     <img class="shop-image" v-bind:src="result.image_url" />
                 </div>
             </ul>
-=======
-    <div>
-        <h1>List of local coffee shops near you:</h1>
-    </div>
-    <ul class="coffee-shop-list">
-        <div v-for="result in results" v-bind:key="result.id">
-            <p> {{ result.name }} </p>
-            <p> {{ result.location.display_address }} </p>
-            <p> {{ result.url }} </p>
-            <img v-bind:src="result.image_url" />
->>>>>>> a4cd9c6aaca9b0330a5901d8d41b495d6b83648f
         </div>
     </div>
 </template>
+
 <script>
     import YelpService from '../services/YelpService';
-<<<<<<< HEAD
-=======
-
->>>>>>> a4cd9c6aaca9b0330a5901d8d41b495d6b83648f
     export default {
         data() {
             return {
