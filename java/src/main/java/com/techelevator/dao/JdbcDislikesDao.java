@@ -80,7 +80,7 @@ public class JdbcDislikesDao implements DislikesDao{
         Dislikes dislikes = new Dislikes();
         dislikes.setDislikesId(rs.getInt("dislikes_id"));
         dislikes.setUserId(rs.getInt("user_id"));
-        dislikes.setBusinessId(rs.getInt("business_id"));
+        dislikes.setBusinessId(rs.getString("business_id"));
         return dislikes;
     }
 }

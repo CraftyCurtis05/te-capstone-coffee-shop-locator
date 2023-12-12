@@ -3,9 +3,9 @@ package com.techelevator.model;
 public class Dislikes {
     private int dislikesId;
     private int userId;
-    private int businessId;
+    private String businessId;
 
-    public Dislikes(int dislikesId, int userId, int businessId) {
+    public Dislikes(int dislikesId, int userId, String businessId) {
         this.dislikesId = dislikesId;
         this.userId = userId;
         this.businessId = businessId;
@@ -30,11 +30,11 @@ public class Dislikes {
         this.userId = userId;
     }
 
-    public int getBusinessId() {
+    public String getBusinessId() {
         return businessId;
     }
 
-    public void setBusinessId(int businessId) {
+    public void setBusinessId(String businessId) {
         this.businessId = businessId;
     }
 }
