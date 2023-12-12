@@ -1,6 +1,6 @@
 <template>
     <div class="favorites-container">
-        <p>Your favorited coffee shops</p>
+        <p>Your favorite coffee shops</p>
          <div class="favorites-button" >
             <button v-on:click.prevent="setFavorite(true)">Favorite Coffee Shop</button>
         </div>
@@ -18,8 +18,8 @@ export default {
         };
     },
     methods: {
-        search() {
-            this.$store.state.locationID = this.locationID;
+        setFavorite(value) {
+            this.$store.commit('SET_FAVORITE_STATUS',  );
         }
     }
 };

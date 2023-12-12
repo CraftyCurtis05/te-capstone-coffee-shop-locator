@@ -2,7 +2,6 @@
 // Open: https://cors-anywhere.herokuapp.com/corsdemo
 
 import axios from 'axios';
-//import { useStore } from 'vuex';
 
 export default{
   getCoffee(locationID){
