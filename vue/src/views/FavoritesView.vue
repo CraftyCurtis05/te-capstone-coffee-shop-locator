@@ -3,7 +3,7 @@
     <h1>Favorites</h1> 
     <p>.........</p> 
       <div class="favorites-display">
-        {{ this.$store.state.favorites }}
+        {{ this.$store.state.favorites }}      <!--TODO: DISPLAY FAVORITE SHOP LIST -->
       </div>
   </div>
 </template>
