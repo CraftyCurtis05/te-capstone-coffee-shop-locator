@@ -25,7 +25,7 @@
   export default {
     components: {
       YelpBusinessSearch,
-      LocatorSearchBar,
+      LocatorSearchBar
       //FavoritesButton                                               //<!-- TODO: DEACTIVATED UNTIL FAVORITE BUTTON IS WORKING! -->
     }
   };
