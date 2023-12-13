@@ -2,16 +2,16 @@
   <h1>Shop</h1>
   <p>Shop for More Than Just Coffee: Discover Equipment, Snacks, and Unique Merchandise</p>
     <section class="links-pics">
-      <div class="links-pic"><a href="https://store.coffeebean.com/collections/coffee"><img src="src\assets\coffeeBeans.jpeg"></a></div>
-      <div class="links-pic"><a href="https://www.ozocoffee.com/brew-equipment/"><img src="src/assets/purchaseEquipment2.avif"></a></div>
-      <div class="links-pic"><a href="https://www.etsy.com/market/coffee_novelties"><img src="src/assets/purchaseMerchendise.avif"></a></div>
-      <div class="links-pic"><a href="https://shop.shatila.com/default.aspx"><img src="src\assets\purchaseSnacks.avif"></a></div>
+      <div class="links-pic"><a href="https://store.coffeebean.com/collections/coffee" target="_blank"><img src="src\assets\coffeeBeans.jpeg"></a></div>
+      <div class="links-pic"><a href="https://www.ozocoffee.com/brew-equipment/" target="_blank"><img src="src/assets/purchaseEquipment2.avif"></a></div>
+      <div class="links-pic"><a href="https://www.etsy.com/market/coffee_novelties" target="_blank"><img src="src/assets/purchaseMerchendise.avif"></a></div>
+      <div class="links-pic"><a href="https://shop.shatila.com/default.aspx" target="_blank"><img src="src\assets\purchaseSnacks.avif"></a></div>
     </section>
     <section class="links-texts">
-      <div class="links-text1"><a href="https://store.coffeebean.com/collections/coffee">Purchase Coffee</a></div>
-      <div class="links-text2"><a href="https://www.ozocoffee.com/brew-equipment/">Purchase Equipment</a></div>
-      <div class="links-text3"><a href="https://www.etsy.com/market/coffee_novelties">Purchase Merchandise</a></div>
-      <div class="links-text4"><a href="https://shop.shatila.com/default.aspx">Purchase Snacks</a></div>
+      <div class="links-text1"><a href="https://store.coffeebean.com/collections/coffee" target="_blank">Purchase Coffee</a></div>
+      <div class="links-text2"><a href="https://www.ozocoffee.com/brew-equipment/" target="_blank">Purchase Equipment</a></div>
+      <div class="links-text3"><a href="https://www.etsy.com/market/coffee_novelties" target="_blank">Purchase Merchandise</a></div>
+      <div class="links-text4"><a href="https://shop.shatila.com/default.aspx" target="_blank">Purchase Snacks</a></div>
     </section>
 </template>
 

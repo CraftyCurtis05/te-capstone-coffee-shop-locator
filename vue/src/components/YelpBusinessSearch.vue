@@ -4,9 +4,9 @@
       <div class="coffee-shop-list">
         <ul>
           <div v-for="result in results" v-bind:key="result.id">
-            <a class="shop-name" v-bind:href="result.url">{{ result.name }}</a>
+            <a class="shop-name" v-bind:href="result.url" target="_blank">{{ result.name }}</a>
             <p class="shop-address"> {{ result.location.display_address }} </p> <!-- TODO: REMOVE "[]" FROM ADDRESS DISPLAY! -->
-            <a class="shop-name" v-bind:href="result.url"><img class="shop-image" v-bind:src="result.image_url" /></a>
+            <a class="shop-name" v-bind:href="result.url" target="_blank"><img class="shop-image" v-bind:src="result.image_url" /></a>
           </div>
         </ul>
       </div>
