@@ -1,7 +1,10 @@
 <template>
-  <div id="favorites" class="text-center">
+  <div class="favorites-container">
     <h1>Favorites</h1> 
-    <p>.........</p>       
+    <p>.........</p> 
+      <div class="favorites-display">
+        {{ this.$store.state.favorites }}
+      </div>
   </div>
 </template>
 

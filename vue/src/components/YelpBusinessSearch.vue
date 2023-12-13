@@ -4,10 +4,10 @@
       <div class="coffee-shop-list">
         <ul>
           <div v-for="result in results" v-bind:key="result.id">
-            <p class="shop-name"> {{ result.name }} </p>
-            <p class="shop-address"> {{ result.location.display_address }} </p>
-            <p> {{ result.url }} </p>
-            <img class="shop-image" v-bind:src="result.image_url" />
+            <a class="shop-name" href="{{ result.url }}">{{ result.name }}</a>  <!-- TODO: NOT REFERENCING CORRECT URL! -->
+            <p class="shop-address"> {{ result.location.display_address }} </p> <!-- TODO: REMOVE "[]" FROM ADDRESS DISPLAY! -->
+            <p> {{ result.url }} </p>                                           <!-- TODO: DELETE WHEN URLS WORK!-->
+            <a class="shop-name" href="{{ result.url }}"><img class="shop-image" v-bind:src="result.image_url" /></a> <!-- TODO: NOT REFERENCING CORRECT URL! -->
           </div>
         </ul>
       </div>
@@ -59,9 +59,6 @@
     justify-content: center;
     min-height: 100vh;
   }
-  /*.coffee-shop-image-container {
-    text-align: center; /* Center the content horizontally
-  }*/
   .shop-image {
     width: 200px;
     height: auto;
@@ -75,8 +72,9 @@
   }
   /* Style the coffee shop names */
   .shop-name {
-    font-family: 'Your Custom Font', sans-serif; /* Change to your desired font */
-    font-size: 18px; /* Adjust the font size as needed */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change to your desired font */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bolder;
     color: #333; /* Change to your desired text color */
     margin-top: 10px; /* Add margin for spacing */
   }
