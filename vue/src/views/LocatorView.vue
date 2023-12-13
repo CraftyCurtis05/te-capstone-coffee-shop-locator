@@ -11,22 +11,17 @@
       <div class="list-search-results">
         <YelpBusinessSearch v-if="this.$store.state.locationID"/>
       </div>
-      <div>
-        <FavoritesButton/>                                         <!-- TODO: DEACTIVATED UNTIL FAVORITE BUTTON IS WORKING! -->
-      </div>
     </div>
   </template>
   
   <script>
   import YelpBusinessSearch from '../components/YelpBusinessSearch.vue';
   import LocatorSearchBar from '../components/LocatorSearchBar.vue';
- // import FavoritesButton from '../components/FavoritesButton.vue'; //<!-- TODO: DEACTIVATED UNTIL FAVORITE BUTTON IS WORKING! -->
 
   export default {
     components: {
       YelpBusinessSearch,
       LocatorSearchBar
-      //FavoritesButton                                               //<!-- TODO: DEACTIVATED UNTIL FAVORITE BUTTON IS WORKING! -->
     }
   };
   </script>
