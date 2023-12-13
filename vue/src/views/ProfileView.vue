@@ -1,11 +1,11 @@
 <template>
   <h1>Profile</h1>  
   <p>Jolt Up Your Profile</p>
-    <div><a href="/favorites">Favorites</a></div>
+    <div class="favorites-link"><a href="/favorites">Favorites</a></div>
     <div id="change-profile-pic">
         <h3>Change Profile Picture</h3>
         <ProfilePictureUpload />
-      </div>
+    </div>
 </template>
 
 <script>
@@ -35,5 +35,25 @@ p {
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 10px; /* Add some spacing */
+}
+#change-profile-pic {
+  display: flex;
+  position: relative;
+  left: 100px;
+}
+h3 {
+  display: flex;
+  position: relative;
+  left: 425px;
+  bottom: -30px;
+  font-family: 'Lobster Two', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  left: 500px;
 }
 </style>
