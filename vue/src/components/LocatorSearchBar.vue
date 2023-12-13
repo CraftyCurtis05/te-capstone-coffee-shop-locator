@@ -14,7 +14,12 @@
     },
     methods: {
       search() {
-        this.$store.state.locationID = this.locationID;
+        this.clearResults();
+        setTimeout(() => {
+        this.$store.state.locationID = this.locationID}, 500);
+      },
+      clearResults() {
+        this.$store.state.locationID = null;
       }
     }
 };

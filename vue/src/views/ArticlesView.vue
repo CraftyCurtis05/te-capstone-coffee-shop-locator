@@ -2,16 +2,16 @@
   <h1>Articles</h1>
   <p>Dive into the Coffee Chronicles: A World of Brew-tiful Stories</p>
     <section class="articles-pics">
-      <div class="articles-pic"><a href="https://riordanclinic.org/2018/03/13-health-benefits-of-coffee-based-on-science/?gclid=Cj0KCQiAsburBhCIARIsAExmsu76rAuS3rnEO2lznJSxaKKwz8erMeb-IEj_v6c1q9rGZAkSqsr1ehYaAqYOEALw_wcB"><img src="src\assets\health2.webp"></a></div>
-      <div class="articles-pic"><a href="https://www.medscape.com/viewarticle/994049?form=fpf"><img src="src\assets\brainBoosting.jpeg"></a></div>
-      <div class="articles-pic"><a href="https://www.nytimes.com/2023/09/26/well/eat/coffee-benefits-caffeine-risks.html"><img src="src\assets\tooMuch.jpeg"></a></div>
-      <div class="articles-pic"><a href="https://www.inc.com/geoffrey-james/scientists-just-discovered-best-time-of-day-to-drink-your-first-cup-of-coffee.html"><img src="src\assets\bestTime1.jpeg"></a></div>
+      <div class="articles-pic"><a href="https://riordanclinic.org/2018/03/13-health-benefits-of-coffee-based-on-science/?gclid=Cj0KCQiAsburBhCIARIsAExmsu76rAuS3rnEO2lznJSxaKKwz8erMeb-IEj_v6c1q9rGZAkSqsr1ehYaAqYOEALw_wcB" target="_blank"><img src="src\assets\health2.webp"></a></div>
+      <div class="articles-pic"><a href="https://www.medscape.com/viewarticle/994049?form=fpf" target="_blank"><img src="src\assets\brainBoosting.jpeg"></a></div>
+      <div class="articles-pic"><a href="https://www.nytimes.com/2023/09/26/well/eat/coffee-benefits-caffeine-risks.html" target="_blank"><img src="src\assets\tooMuch.jpeg"></a></div>
+      <div class="articles-pic"><a href="https://www.inc.com/geoffrey-james/scientists-just-discovered-best-time-of-day-to-drink-your-first-cup-of-coffee.html" target="_blank"><img src="src\assets\bestTime1.jpeg"></a></div>
     </section>
     <section class="articles-texts">
-      <div class="articles-text1"><a href="https://riordanclinic.org/2018/03/13-health-benefits-of-coffee-based-on-science/?gclid=Cj0KCQiAsburBhCIARIsAExmsu76rAuS3rnEO2lznJSxaKKwz8erMeb-IEj_v6c1q9rGZAkSqsr1ehYaAqYOEALw_wcB">Health Benefits of Coffee</a></div>
-      <div class="articles-text2"><a href="https://www.medscape.com/viewarticle/994049?form=fpf">Coffee Brain Boosting Effect</a></div>
-      <div class="articles-text3"><a href="https://www.nytimes.com/2023/09/26/well/eat/coffee-benefits-caffeine-risks.html">How much is too much Coffee?</a></div>
-      <div class="articles-text4"><a href="https://www.inc.com/geoffrey-james/scientists-just-discovered-best-time-of-day-to-drink-your-first-cup-of-coffee.html">Best Time to Drink Coffee</a></div>
+      <div class="articles-text1"><a href="https://riordanclinic.org/2018/03/13-health-benefits-of-coffee-based-on-science/?gclid=Cj0KCQiAsburBhCIARIsAExmsu76rAuS3rnEO2lznJSxaKKwz8erMeb-IEj_v6c1q9rGZAkSqsr1ehYaAqYOEALw_wcB" target="_blank">Health Benefits of Coffee</a></div>
+      <div class="articles-text2"><a href="https://www.medscape.com/viewarticle/994049?form=fpf" target="_blank">Coffee Brain Boosting Effect</a></div>
+      <div class="articles-text3"><a href="https://www.nytimes.com/2023/09/26/well/eat/coffee-benefits-caffeine-risks.html" target="_blank">How much is too much Coffee?</a></div>
+      <div class="articles-text4"><a href="https://www.inc.com/geoffrey-james/scientists-just-discovered-best-time-of-day-to-drink-your-first-cup-of-coffee.html" target="_blank">Best Time to Drink Coffee</a></div>
     </section>
 </template>
 

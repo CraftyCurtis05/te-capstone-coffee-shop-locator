@@ -4,9 +4,10 @@
       <div class="coffee-shop-list">
         <ul>
           <div v-for="result in results" v-bind:key="result.id">
-            <a class="shop-name" v-bind:href="result.url">{{ result.name }}</a>
-            <p class="shop-address"> {{ result.location.display_address }} </p> <!-- TODO: REMOVE "[]" FROM ADDRESS DISPLAY! -->
-            <a class="shop-name" v-bind:href="result.url"><img class="shop-image" v-bind:src="result.image_url" /></a>
+            <a class="shop-name" v-bind:href="result.url" target="_blank"> {{ result.name }} </a>
+            <p class="shop-address"><a href="https:www.google.com/maps/dir/?api=1" target="_blank"> {{ result.location.address1 }} </a> </p>
+            <a class="shop-name" v-bind:href="result.url" target="_blank"><img class="shop-image" v-bind:src="result.image_url" /></a>
+            <button v-on:click.prevent="setFavorite(result.id)">Favorite Coffee Shop</button>
           </div>
         </ul>
       </div>
@@ -14,30 +15,36 @@
 </template>
 
 <script>
-    import YelpService from '../services/YelpService';
-    export default {
-        data() {
-            return {
-                results: [],
-                locationID: ''
-            }
-        },
-        methods: {
-            getResults(locationID) {
-                YelpService.getCoffee(locationID)
-                .then(response => {
-                    this.results = response.data.businesses;
-                    console.log(this.results);
-                })
-                .catch(error => {
-                    console.log(error);
-                })
-            }
-        },
-        created() {
-            this.getResults(this.$store.state.locationID);
-        }
+import YelpService from '../services/YelpService';
+import JavaService from '../services/JavaService';
+
+export default {
+  data() {
+    return {
+      results: [],
+      locationID: ''
     }
+  },
+  methods: {
+  getResults(locationID) {
+    YelpService.getCoffee(locationID)
+      .then(response => {
+        this.results = response.data.businesses;
+        console.log(this.results);
+      })
+      .catch(error => {
+        console.log(error);
+      })
+    },
+    setFavorite(value) {
+      this.$store.commit('SET_FAVORITE_STATUS',  value);
+      JavaService.makeFavorite({ name: 'favorite', params: { businessId: this.$store.state.id, businessName: this.$store.state.name, businessAddress: this.$store.state.location.address1 }});
+    }
+  },
+  created() {
+    this.getResults(this.$store.state.locationID);
+  }
+}
 </script>
 
 <style scoped>
