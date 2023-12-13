@@ -5,7 +5,7 @@
         <ul>
           <div v-for="result in results" v-bind:key="result.id">
             <a class="shop-name" v-bind:href="result.url" target="_blank"> {{ result.name }} </a>
-            <p class="shop-address"> {{ result.location.display_address }} </p>                       <!-- TODO: REMOVE "[]" FROM ADDRESS DISPLAY! STEVEN -->
+            <p class="shop-address"><a href="https:www.google.com/maps/dir/?api=1" target="_blank"> {{ result.location.address1 }} </a> </p>
             <a class="shop-name" v-bind:href="result.url" target="_blank"><img class="shop-image" v-bind:src="result.image_url" /></a>
             <button v-on:click.prevent="setFavorite(result.id)">Favorite Coffee Shop</button>
           </div>
@@ -38,7 +38,7 @@ export default {
     },
     setFavorite(value) {
       this.$store.commit('SET_FAVORITE_STATUS',  value);
-      JavaService.makeFavorite("")
+      JavaService.makeFavorite({ name: 'favorite', params: { businessId: this.$store.state.id, businessName: this.$store.state.name, businessAddress: this.$store.state.location.address1 }});
     }
   },
   created() {

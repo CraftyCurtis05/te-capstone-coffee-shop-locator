@@ -25,7 +25,7 @@ export function createStore(currentToken, currentUser) {
         state.user = {};
         axios.defaults.headers.common = {};
       },
-      SET_FAVORITE_STATUS(favorite, payload) {                        // TODO: STORE FAVORITE STATE
+      SET_FAVORITE_STATUS(favorite, payload) {                  
         payload.locationID.favorite = payload.value;
       }
     }
