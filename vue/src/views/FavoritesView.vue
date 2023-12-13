@@ -1,7 +1,7 @@
 <template>
   <div class="favorites-container">
     <h1>Favorites</h1> 
-    <p>.........</p> 
+    <p>Coffee Shop Delights: My Personal Selection</p> 
       <div class="favorites-display">
         {{ this.$store.state.favorites }}
       </div>
@@ -47,5 +47,22 @@ p {
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 10px; /* Add some spacing */
+}
+.favorites-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f4f4f4;
+}
+.favorites-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.favorites-display {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
 }
 </style>
