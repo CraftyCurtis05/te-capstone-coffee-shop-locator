@@ -1,7 +1,8 @@
 <template>
     <div class="location-container">
       <input type="text" v-model="locationID" name="user-location" class="location-input" placeholder="Your Location"/>
-      <button v-on:click="search()" class="search-button">Search</button>
+      <button v-on:click="search()" class="search-button">Search</button> <!-- added @click for route.push -->
+      <button v-on:click="clearResults()" class="clear-results">Clear</button>
     </div>
   </template>
   
@@ -9,12 +10,17 @@
   export default {
     data() {
       return {
-        locationID: ''
+        locationID: '', //was thinking we could have search results return empty array for route push
       };
     },
     methods: {
       search() {
-        this.$store.state.locationID = this.locationID;
+        this.clearResults();
+        setTimeout(() => {
+        this.$store.state.locationID = this.locationID}, 500);
+      },
+      clearResults() {
+        this.$store.state.locationID = null;
       }
     }
 };
