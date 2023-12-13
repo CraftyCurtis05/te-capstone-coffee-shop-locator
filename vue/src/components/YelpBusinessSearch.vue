@@ -1,21 +1,17 @@
 <template>
-    <div class="coffee-shop-container">
-        <h1 class="coffee-shop-title">List of local coffee shops near you:</h1>
-        <div class="coffee-shop-list">
-            <ul>
-                <div v-for="result in results" v-bind:key="result.id">
-                    <p class="shop-name"> {{ result.name }} </p>
-                    <p class="shop-address"> {{ result.location.display_address }} </p>
-                    <p> {{ result.url }} </p>
-                    <img class="shop-image" v-bind:src="result.image_url" />
-                </div>
-            </ul>
-        </div>
-<<<<<<< HEAD
-    </div>        
-=======
-    </div>
->>>>>>> aa52bd5777900ed305745f6ccad9e0035ab75875
+  <div class="coffee-shop-container">
+    <h1 class="coffee-shop-title">List of local coffee shops near you:</h1>
+      <div class="coffee-shop-list">
+        <ul>
+          <div v-for="result in results" v-bind:key="result.id">
+            <p class="shop-name"> {{ result.name }} </p>
+            <p class="shop-address"> {{ result.location.display_address }} </p>
+            <p> {{ result.url }} </p>
+            <img class="shop-image" v-bind:src="result.image_url" />
+          </div>
+        </ul>
+      </div>
+  </div>        
 </template>
 
 <script>
@@ -44,15 +40,10 @@
         }
     }
 </script>
-<<<<<<< HEAD
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
 
-=======
-<style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Ubuntu&display=swap');
->>>>>>> aa52bd5777900ed305745f6ccad9e0035ab75875
   h1.coffee-shop-title {
     font-family: 'Lobster Two', sans-serif;
     font-family: 'Ubuntu', sans-serif;

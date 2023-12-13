@@ -49,17 +49,13 @@
   }
   .search-bar {
   margin-top: 40px; /* Adjust the margin-top value to move the search bar down */
-<<<<<<< HEAD
-  }
-  .list-search-results img {
-  width: 200px !important;
-  height: auto !important;
-=======
->>>>>>> aa52bd5777900ed305745f6ccad9e0035ab75875
   }
   .list-search-results img {
   width: 200px !important;
   height: auto !important;
   }
- 
+  .list-search-results img {
+  width: 200px !important;
+  height: auto !important;
+  }
   </style>
