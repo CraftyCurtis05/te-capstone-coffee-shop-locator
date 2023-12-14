@@ -1,7 +1,7 @@
 <template>
   <h1>Profile</h1>  
   <p>Jolt Up Your Profile</p>
-    <div class="favorites-link"><a href="/favorites">Favorites</a></div>
+    <div class="favorites-link"><a href="/favorites"></a></div>
     <div id="change-profile-pic">
         <h3>Change Profile Picture</h3>
         <ProfilePictureUpload />

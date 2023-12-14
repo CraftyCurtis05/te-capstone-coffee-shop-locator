@@ -1,11 +1,20 @@
 <template>
-    <footer class="footer">
-      <div class="container">
-        <span>&copy; {{ year }} {{ companyName }}</span>
-        <p class="slogan">Be Brew-tiful. Sip, Savor, Repeat.</p> <!-- Add your slogan here -->
+  <footer class="footer">
+    <div class="container">
+      <span>&copy; {{ year }} {{ companyName }}</span>
+      <p class="slogan">Be Brew-tiful. Sip, Savor, Repeat.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100094171302714" target="_blank" class="social-link">
+          <img src="src\assets\facebook.jpg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/joltcoffeeshoplocator/" target="_blank" class="social-link">
+          <img src="src\assets\instagram.jpg" alt="Instagram">
+        </a>
       </div>
-    </footer>
-  </template>
+    </div>
+  </footer>
+</template>
+
   
   <script>
   export default {
@@ -38,6 +47,17 @@
     margin-top: 10px; 
     font-weight: bold; 
     color: rgb(234,189,99);
+  }
+  .social-links {
+    margin-top: 20px;
+  }
+  .social-link {
+    margin-right: 20px; 
+  }
+  .social-link img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
   }
   </style>
   

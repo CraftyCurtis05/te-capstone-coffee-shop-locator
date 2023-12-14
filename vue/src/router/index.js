@@ -11,6 +11,7 @@ import ArticlesView from '../views/ArticlesView.vue';
 import LocatorView from '../views/LocatorView.vue';
 import ProfileView from '../views/ProfileView.vue';
 import FavoritesView from '../views/FavoritesView.vue';
+import AboutUsView from '../views/AboutUsView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -94,7 +95,16 @@ const routes = [
     meta: {
       requiresAuth: true
     }
+  },
+  {
+    path: "/aboutUs",
+    name: "aboutUs",
+    component: AboutUsView,
+    meta: {
+      requiresAuth: true
+    }
   }
+
 ];
 
 // Create the router
