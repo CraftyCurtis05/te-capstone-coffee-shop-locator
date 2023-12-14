@@ -50,12 +50,34 @@
   .search-bar {
   margin-top: 40px; /* Adjust the margin-top value to move the search bar down */
   }
+  .list-search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text content within the list */
+  }
   .list-search-results img {
+  display: block;
+  margin: 0 auto;
   width: 200px !important;
   height: auto !important;
   }
-  .list-search-results img {
+  /* Center the text content within each result item */
+.list-search-results .result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Center the images within each result item */
+.list-search-results .result-item img {
+  display: block;
+  margin: 0 auto;
   width: 200px !important;
   height: auto !important;
-  }
+}
+
+
   </style>

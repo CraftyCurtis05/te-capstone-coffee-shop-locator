@@ -3,6 +3,14 @@
       <input type="text" v-model="locationID" name="user-location" class="location-input" placeholder="Your Location"/>
       <button v-on:click="search()" class="search-button">Search</button>
     </div>
+    <div v-for="result in results" v-bind:key="result.id" class="search-result">
+      <a :href="'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(result.location.address1)" target="_blank" class="business-name">
+        {{ result.name }}
+      </a>
+      <p class="business-address">
+        {{ result.location.address1 }}
+      </p>
+    </div>
   </template>
   
   <script>
@@ -63,5 +71,21 @@
     background-color: rgb(105, 100, 100); 
     color: rgb(255, 252, 251);
   }
+  /* Style business names */
+  .business-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration: none !important; /* Add !important to override browser styles */
+  }
+
+  /* Style business addresses */
+  .business-address {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none !important; /* Add !important to override browser styles */
+  }
+  
   </style>
   
