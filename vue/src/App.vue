@@ -79,7 +79,7 @@ export default {
 .home-link {
   justify-content: center;
   position: relative;
-  left: 300px;
+  left: 285px;
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -90,12 +90,12 @@ export default {
   width: 1px;
   height: 20px;
   position: relative;
-  left: 228px;
+  left: 235px;
 }
 .locator-link {
   justify-content: center;
   position: relative;
-  left: 150px;
+  left: 175px;
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -106,12 +106,12 @@ export default {
   width: 1px;
   height: 20px;
   position: relative;
-  left: 75px;
+  left: 120px;
 }
 .shop-link {
   justify-content: center;
   position: relative;
-  left: 0px;
+  left: 80px;
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -122,12 +122,12 @@ export default {
   width: 1px;
   height: 20px;
   position: relative;
-  left: -75px;
+  left: 35px;
 }
 .articles-link {
   justify-content: center;
   position: relative;
-  left: -150px;
+  left: -25px;
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -138,12 +138,12 @@ export default {
   width: 1px;
   height: 20px;
   position: relative;
-  left: -225px;
+  left: -85px;
 }
 .logout-link {
   justify-content: center;
   position: relative;
-  left: -300px;
+  left: 180px;
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
@@ -152,22 +152,14 @@ export default {
   display: flex;
   justify-content: center;
   position: relative;
-  left: -350px; /* Adjust the left position as needed */
+  left: -280px; /* Adjust the left position as needed */
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
 }
 
 /* Add a separator style for the ABOUT US link */
-#sep5 {
-  display: flex;
-  justify-content: center;
-  margin: 0 10px;
-  width: 1px;
-  height: 20px;
-  position: relative;
-  left: -525px; /* Adjust the left position as needed */
-}
+
 .separators {
   margin: 0 10px;
   width: 1px;

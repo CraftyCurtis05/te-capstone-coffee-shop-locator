@@ -70,7 +70,7 @@ export default {
     min-height: 100vh;
   }
   .shop-image {
-    width: 500px;
+    width: 250px;
     height: auto;
     border: 3px solid #F4E2B5; 
     border-radius: 10px; 

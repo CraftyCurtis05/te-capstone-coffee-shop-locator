@@ -2,7 +2,6 @@
     <div class="location-container">
       <input type="text" v-model="locationID" name="user-location" class="location-input" placeholder="Your Location"/>
       <button v-on:click="search()" class="search-button">Search</button>
-      <button v-on:click="clearResults()" class="clear-results">Clear</button>
     </div>
     <div v-for="result in results" v-bind:key="result.id" class="search-result">
       <a :href="'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(result.location.address1)" target="_blank" class="business-name">
