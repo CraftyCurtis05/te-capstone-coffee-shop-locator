@@ -16,8 +16,13 @@
         <div class="separators" id="sep3"></div>
         <router-link class="articles-link" v-bind:to="{ name: 'articles' }" v-if="$store.state.token != ''">ARTICLES</router-link>
         <div class="separators" id="sep4"></div>
+        
         <router-link class="logout-link" v-bind:to="{ name: 'logout' }" v-if="$store.state.token != ''">LOGOUT</router-link>
+        <router-link class="aboutUs-link" v-bind:to="{ name: 'aboutUs' }" v-if="$store.state.token != ''">ABOUT US</router-link>
+        <div class="separators" id="sep5"></div>
       </div>
+
+
         <!-- <div class="separators"></div> -->
         <router-link v-bind:to="{ name: 'profile' }" v-if="$store.state.token != ''"><img class="profile_pic" src="src\assets\profile (2).png"></router-link>
     </div>
@@ -142,6 +147,26 @@ export default {
   font-size: 16px;
   color: rgb(245, 242, 242);
   text-decoration: none;
+}
+.aboutUs-link {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -350px; /* Adjust the left position as needed */
+  font-size: 16px;
+  color: rgb(245, 242, 242);
+  text-decoration: none;
+}
+
+/* Add a separator style for the ABOUT US link */
+#sep5 {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  position: relative;
+  left: -525px; /* Adjust the left position as needed */
 }
 .separators {
   margin: 0 10px;

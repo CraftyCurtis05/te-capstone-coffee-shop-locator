@@ -4,11 +4,15 @@
       <div class="coffee-shop-list">
         <ul>
           <div v-for="result in results" v-bind:key="result.id">
+            <div class="shop-item">
             <a class="shop-name" v-bind:href="result.url" target="_blank"> {{ result.name }} </a>
+            <div class="shop-details">
             <p class="shop-address"><a href="https:www.google.com/maps/dir/?api=1" target="_blank"> {{ result.location.address1 }} </a> </p>
             <a class="shop-name" v-bind:href="result.url" target="_blank"><img class="shop-image" v-bind:src="result.image_url" /></a>
-            <button v-on:click.prevent="setFavorite(result.id)">Favorite Coffee Shop</button>
           </div>
+            <button class="favorite-button" v-on:click.prevent="setFavorite(result.id)">Favorite Coffee Shop</button>
+          </div>
+        </div>
         </ul>
       </div>
   </div>        
@@ -54,9 +58,9 @@ export default {
     font-family: 'Lobster Two', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    font-size: 20px;
-    /* Remove margin-top to center it vertically */
+    font-size: 30px;
     text-align: center !important;
+    color: #6f6559;
   }
   .coffee-shop-container {
     display: flex;
@@ -66,22 +70,54 @@ export default {
     min-height: 100vh;
   }
   .shop-image {
-    width: 200px;
+    width: 500px;
     height: auto;
-    border: 3px solid #F4E2B5; /* Add a border around the image */
-    border-radius: 10px; /* Add border radius for a cute look */
-    transition: transform 0.2s ease-in-out; /* Add a smooth transform transition */
+    border: 3px solid #F4E2B5; 
+    border-radius: 10px; 
+    transition: transform 0.2s ease-in-out; 
   }
-  /* Apply a scale transformation when hovering over the image */
   .shop-image:hover {
     transform: scale(1.1);
   }
-  /* Style the coffee shop names */
   .shop-name {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change to your desired font */
-    font-size: 16px; /* Adjust the font size as needed */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 30px; 
     font-weight: bolder;
-    color: #333; /* Change to your desired text color */
-    margin-top: 10px; /* Add margin for spacing */
+    color: #fbfbf6; 
+    margin-top: 10px; 
+    background-color: #a4a49a;
+    padding: 5px 10px; 
+    border-radius: 10px;
   }
+.shop-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.favorite-button {
+  margin-top: 10px;
+  margin-bottom: 50px; /* Add margin at the bottom to create space */
+  background-color: #F4E2B5;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+a:link, a:visited {
+  color: rgb(22, 18, 18);
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 790;
+  font-size: 24px;
+}
+a:hover{
+  color:#e8bb64;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 790;
+  font-size: 24px;
+}
   </style>
