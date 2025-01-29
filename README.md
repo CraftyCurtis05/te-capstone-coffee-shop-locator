@@ -56,8 +56,8 @@ The application is built using **Vue.js** for the frontend. It integrates with t
 
 - **Vue.js**: JavaScript framework used for building the user interface.
 - **Yelp Fusion API**: External API used to search and retrieve coffee shop data.
-- **Spring Boot: The backend framework used for verifying user details.
-- **PostgreSQL: Relational database for storing user information.
+- **Spring Boot**: The backend framework used for verifying user details.
+- **PostgreSQL**: Relational database for storing user information.
 - **JSON**: Data format used to parse the response from the Yelp API.
 
 ---
