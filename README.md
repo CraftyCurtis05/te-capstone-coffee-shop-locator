@@ -77,7 +77,7 @@ Before you start, make sure you have the following installed:
 This project was developed in a group setting. Here are the key contributions:
 
 - **Wireframes & Design**: Desktop and mobile wireframes were created to outline the user interface.
-- **API Integration**: Connected the **Vue.js** frontend with the **Yelp Fusion API**, handling JSON responses to display coffee shop details.
+- **API Integration**: Connected the **Vue.js** frontend with the **Yelp Fusion API**, handling **JSON** responses to display coffee shop details.
 - **Routing & State Management**: Implemented routing with **Vue Router** and used **Vuex** for state management.
 - **Testing**: Performed user testing to ensure a smooth experience on desktop devices.
 
