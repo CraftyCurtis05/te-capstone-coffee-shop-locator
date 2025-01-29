@@ -6,7 +6,7 @@ Welcome to the Coffee Shop Locator Web Application! This app helps users find th
 
 ## Introduction
 
-This project was developed as part of a collaborative group effort to create a web application that allows users to register, log in, search for coffee shops based on their location, and view essential details like the name, address, and rating of nearby coffee shops. By utilizing the Yelp Fusion API, the application fetches a list of the closest 20 coffee shops, making it easy for users to discover new spots.
+This project was developed as part of a collaborative group effort to create a web application that allows users to register, log in, search for coffee shops based on their location, and view essential details like the name, address, and rating of nearby coffee shops. By utilizing the **Yelp Fusion API**, the application fetches a list of the closest 20 coffee shops, making it easy for users to discover new spots.
 
 ---
 
@@ -20,7 +20,7 @@ This project was developed as part of a collaborative group effort to create a w
 
 ## Project Structure
 
-The application is built using **Vue.js** for the frontend. It integrates with the Yelp Fusion API for retrieving coffee shop data based on the user's location. The project also includes user authentication and a clean user interface.
+The application is built using **Vue.js** for the frontend. It integrates with the **Yelp Fusion API** for retrieving coffee shop data based on the user's location. The project also includes user authentication and a clean user interface.
 
 /te-capstone-coffee-shop-locator <br>
 &nbsp;&nbsp;&nbsp;&nbsp;/java <br>
