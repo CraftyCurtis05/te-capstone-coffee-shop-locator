@@ -69,7 +69,7 @@ Before you start, make sure you have the following installed:
 - Ensure you have **Node.js** installed, including **npm**.
 - **Java 11** or newer
 - **PostgreSQL** (or any compatible relational database)
-- Retrive an API Key for **YELP Fusion**
+- Retrive an API Key from **Yelp Fusion API**
 
 ---
 
