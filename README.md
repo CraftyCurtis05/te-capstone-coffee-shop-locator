@@ -1,91 +1,156 @@
-# Coffee Shop Locator Web Application
+# Coffee Shop Locator Application
 
-Welcome to the Coffee Shop Locator Web Application! This app helps users find the closest coffee shops near their location using the **Yelp Fusion API** and provides a user-friendly interface built with **Vue.js**. Provides user authentication and authorization by utilizing **Spring Boot** backend and **PostgreSQL** database for data management.
+### Full-Stack Business Discovery & Decision Support System
 
----
+A full-stack web application designed to help users discover, evaluate, and save local coffee shops through a centralized search experience powered by real-time business data.
 
-## Introduction
-
-This project was developed as part of a collaborative group effort to create a web application that allows users to register, log in, search for coffee shops based on their location, and view essential details like the name, address, and rating of nearby coffee shops. By utilizing the **Yelp Fusion API**, the application fetches a list of the closest 20 coffee shops, making it easy for users to discover new spots.
+Originally developed as a collaborative capstone project and later enhanced through continued development and feature expansion, this application demonstrates full-stack development, API integration, user authentication, database design, and user-focused application architecture.
 
 ---
 
-## Features
+## Project Overview
 
-- **User Login**: Secure user login functionality.
-- **Search for Coffee Shops**: Perform address-based searches to find the closest 20 coffee shops.
-- **Yelp API Integration**: Fetch data from Yelp’s API, displaying coffee shop details such as name, address, and rating.
+The Coffee Shop Locator Application was designed to simplify local business discovery by aggregating real-time coffee shop data into a single searchable platform.
 
----
+Users can create accounts, manage personalized profiles, search for nearby coffee shops, and save favorite locations for future reference.
 
-## Project Structure
-
-The application is built using **Vue.js** for the frontend. It integrates with the **Yelp Fusion API** for retrieving coffee shop data based on the user's location. The project also includes user authentication and a clean user interface.
-
-/te-capstone-coffee-shop-locator <br>
-&nbsp;&nbsp;&nbsp;&nbsp;/java <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/database <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/src <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/main <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/java/com/techelevator <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/dao <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/exception <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/model <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/security <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/Application.java <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/resources <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/java/com/techelevator/dao <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/resources <br>
-&nbsp;&nbsp;&nbsp;&nbsp;/vue <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/public <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/src <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/assets <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/components <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/router <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/services <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/store <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/views <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.vue <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main.js <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html <br>
+The application combines frontend user experience design with backend data management and third-party API integration to create a complete end-to-end solution.
 
 ---
 
-## Technologies Used
+## Key Features
 
-- **Vue.js**: JavaScript framework used for building the user interface.
-- **Yelp Fusion API**: External API used to search and retrieve coffee shop data.
-- **Spring Boot**: The backend framework used for verifying user details.
-- **PostgreSQL**: Relational database for storing user information.
-- **JSON**: Data format used to parse the response from the Yelp API.
+### User Authentication & Profiles
+
+- User registration and login
+- Secure authentication and authorization
+- Personalized user profiles
+- Favorite coffee shop management
+
+### Business Discovery
+
+- Location-based coffee shop search
+- Real-time business information
+- Business ratings and location details
+- Centralized search experience
+
+### Personalized Experience
+
+- Save favorite coffee shops
+- Manage personal preferences
+- Access saved locations across sessions
+
+### Responsive Design
+
+- Mobile-friendly interface
+- Desktop and tablet support
+- Consistent user experience across devices
 
 ---
 
-## Prerequisites
-Before you start, make sure you have the following installed:
+## Technical Highlights
 
-- A code editor (e.g., **VS Code**, **IntelliJ IDEA**)
-- Ensure you have **Node.js** installed, including **npm**.
-- **Java 11** or newer
-- **PostgreSQL** (or any compatible relational database)
-- Retrive an API Key from **Yelp Fusion API**
-
----
-
-## Collaboration
-This project was developed in a group setting. Here are the key contributions:
-
-- **Wireframes & Design**: Desktop and mobile wireframes were created to outline the user interface.
-- **API Integration**: Connected the **Vue.js** frontend with the **Yelp Fusion API**, handling **JSON** responses to display coffee shop details.
-- **Routing & State Management**: Implemented routing with **Vue Router** and used **Vuex** for state management.
-- **Testing**: Performed user testing to ensure a smooth experience on desktop devices.
+- Built responsive frontend interfaces using Vue.js
+- Integrated Yelp Fusion API for real-time business data retrieval
+- Developed backend services using Java and Spring Boot
+- Implemented user authentication and profile management
+- Designed PostgreSQL database structures for user and application data
+- Created RESTful API endpoints for application functionality
+- Utilized Vue Router for navigation and application flow
+- Implemented state management for user and application data
 
 ---
 
-## Acknowledgements
+## Technology Stack
 
-- **Yelp Fusion API**: For providing the coffee shop data.
-- **Vue.js**: For building the dynamic, reactive frontend.
-- **Spring Boot**: For providing an easy-to-use framework.
-- **PostgreSQL**: For the powerful and reliable database management system.
+| Category | Technologies |
+|-----------|-------------|
+| Frontend | Vue.js, JavaScript, HTML5, CSS3 |
+| Backend | Java, Spring Boot |
+| Database | PostgreSQL |
+| APIs | Yelp Fusion API |
+| Development Tools | IntelliJ IDEA, Git, GitHub |
+| Architecture | REST APIs, Client-Server Architecture |
+
+---
+
+## Business Value
+
+This application demonstrates:
+
+- Requirements gathering and implementation
+- API integration and data aggregation
+- User authentication and profile management
+- Database design and relational data management
+- Full-stack application development
+- Responsive user interface design
+- Collaborative software development
+
+---
+
+## My Contributions
+
+### Frontend Development
+
+- Designed responsive user interfaces
+- Built application views and user workflows
+- Implemented navigation and state management
+
+### Backend Development
+
+- Developed authentication functionality
+- Built user profile management features
+- Created favorites functionality
+- Integrated database interactions
+
+### API Integration
+
+- Connected application services to Yelp Fusion API
+- Processed and displayed business data
+- Structured user-facing search experiences
+
+---
+
+## Lessons Learned
+
+During development I gained experience with:
+
+- Full-stack application architecture
+- API integration workflows
+- User authentication and authorization
+- Relational database design
+- Frontend state management
+- Collaborative software development
+- Responsive design principles
+
+---
+
+## Future Enhancements
+
+- Enhanced search filtering
+- User reviews and ratings
+- Interactive map integration
+- Personalized recommendations
+- Advanced location-based search functionality
+
+---
+
+## Repository
+
+**GitHub:** [Repository Name](YOUR_REPOSITORY_URL)
+
+**Live Demo:** [Application Demo](YOUR_LIVE_DEMO_URL)
+
+---
+
+## Author
+
+**Jennifer Curtis**
+
+Business Systems Analyst | Full-Stack Developer
+
+Portfolio: https://jennifercurtis.me
+
+LinkedIn: https://linkedin.com/in/jcurtisdeveloper
+
+GitHub: https://github.com/craftycurtis05
