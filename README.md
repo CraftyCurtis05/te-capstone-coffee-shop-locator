@@ -137,9 +137,7 @@ During development I gained experience with:
 
 ## Repository
 
-**GitHub:** [Repository Name](YOUR_REPOSITORY_URL)
-
-**Live Demo:** [Application Demo](YOUR_LIVE_DEMO_URL)
+**GitHub:** [Repository Name]((https://github.com/CraftyCurtis05/te-capstone-coffee-shop-locator))
 
 ---
 
