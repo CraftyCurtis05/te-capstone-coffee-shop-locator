@@ -137,7 +137,7 @@ During development I gained experience with:
 
 ## Repository
 
-**GitHub:** [Repository Name](https://github.com/CraftyCurtis05/te-capstone-coffee-shop-locator)
+**GitHub:** [te-capstone-coffee-shop-locator](https://github.com/CraftyCurtis05/te-capstone-coffee-shop-locator)
 
 ---
 
