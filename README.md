@@ -6,20 +6,20 @@ The Coffee Shop Locator Application is a full-stack business discovery applicati
 
 Developed as the capstone project for the Tech Elevator Full-Stack Java Bootcamp, the application demonstrates collaborative software development, business systems analysis, API integration, relational database design, and full-stack web development.
 
-The project combines authenticated user features with real-time business data to provide a personalized business discovery platform.
+The project combines authenticated user access with real-time business data to provide a centralized coffee shop discovery experience.
 
 ---
 
 ## Project Overview
 
-The Coffee Shop Locator Application helps users discover and evaluate nearby coffee shops by consolidating business information from external data sources into a single application.
+The Coffee Shop Locator Application helps users discover nearby coffee shops by combining authenticated access with real-time business information from the Yelp Fusion API.
 
 Users can:
 
+- Register and log into the application
 - Search nearby coffee shops
 - View real-time business information
-- Save favorite locations
-- Manage personalized user profiles
+- Browse educational coffee-related articles
 
 All within a single, streamlined user experience.
 
@@ -27,17 +27,22 @@ All within a single, streamlined user experience.
 
 ## Key Features
 
+### User Authentication
+
+- User registration
+- Secure user login
+- Protected application access
+
 ### Business Discovery
 
 - Search nearby coffee shops using Yelp Fusion API data
 - View business details, ratings, and location information
 - Browse local businesses through a centralized interface
 
-### User Management
+### Educational Content
 
-- Secure user authentication
-- User profile management
-- Personalized favorites functionality
+- Browse coffee-related informational articles
+- Explore educational resources within the application
 
 ---
 
@@ -72,15 +77,15 @@ All within a single, streamlined user experience.
 
 The application follows a traditional client-server architecture with a Vue.js frontend communicating with a Spring Boot REST API backed by PostgreSQL.
 
-As part of a collaborative development team, I contributed to both frontend and backend implementation, including user-facing workflows and application functionality.
+As part of a collaborative development team, I contributed to both frontend and backend implementation throughout the capstone project.
 
 Key contributions included:
 
-- Designed responsive user interfaces supporting business discovery workflows
-- Integrated Yelp Fusion API for real-time business data retrieval
-- Implemented user authentication, profile management, and favorites functionality
+- Designed user interfaces supporting business discovery workflows
+- Integrated the Yelp Fusion API for real-time business data retrieval
+- Implemented user registration and authentication functionality
 - Developed RESTful communication between frontend and backend systems
-- Designed PostgreSQL database structures supporting user and application workflows
+- Designed PostgreSQL database structures supporting application data
 - Applied full-stack development practices using Java, Spring Boot, Vue.js, and PostgreSQL
 - Collaborated with teammates using Git and GitHub throughout the software development lifecycle
 
@@ -102,11 +107,19 @@ Key contributions included:
 
 The following screenshots demonstrate the primary user workflows throughout the application.
 
+### Register
+
+Create a new user account.
+
+![Register](images/01-register.png)
+
+---
+
 ### Login
 
-Secure user authentication for personalized features.
+Secure user authentication for registered users.
 
-![Login](images/01-login.png)
+![Login](images/02-login.png)
 
 ---
 
@@ -114,7 +127,7 @@ Secure user authentication for personalized features.
 
 Introduces the application and primary navigation.
 
-![Home](images/02-home.png)
+![Home Page](images/03-home.png)
 
 ---
 
@@ -122,7 +135,7 @@ Introduces the application and primary navigation.
 
 Displays nearby coffee shops retrieved from the Yelp Fusion API.
 
-![Search](images/03-search.png)
+![Search Results](images/04-locator.png)
 
 ---
 
@@ -130,33 +143,26 @@ Displays nearby coffee shops retrieved from the Yelp Fusion API.
 
 Displays business information and available user actions.
 
-![Shop](images/04-shop.png)
+![Shop Details](images/05-shop.png)
 
 ---
 
-### User Profile
+### Articles
 
-Allows users to create and manage their profile information.
+Browse educational coffee-related content within the application.
 
-![Profile](images/05-profile.png)
-
----
-
-### Favorites
-
-Displays saved coffee shops for authenticated users.
-
-![Favorites](images/06-favorites.png)
+![Articles](images/06-articles.png)
 
 ---
 
 ## Future Enhancements
 
-- Responsive improvements for additional screen sizes
+- User profile management
+- Favorites functionality
+- Responsive layout for tablets and mobile devices
 - Enhanced search filtering
 - User reviews and ratings
 - Interactive mapping functionality
-- Personalized recommendations
 
 ---
 
